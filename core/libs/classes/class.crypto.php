@@ -1,7 +1,7 @@
 <?
 class Crypto {
 	
-	static function md5($str) {
+	static function hash($str) {
 		return(sha1(md5($str . SECURITY_VAULT)));
 	}
 
