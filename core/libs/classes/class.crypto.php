@@ -2,7 +2,7 @@
 class Crypto {
 	
 	static function md5($str) {
-		return(md5($str . SECURITY_VAULT));
+		return(sha1(md5($str . SECURITY_VAULT)));
 	}
 
 	static function random_str($len) {
