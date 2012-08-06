@@ -1,4 +1,4 @@
 <?
-require_once realpath(dirname(__FILE__)) . '/../core/boot.php';
+require_once '/core/boot.php';
 Dispatcher::dispatch();
 ?>
